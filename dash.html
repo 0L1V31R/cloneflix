@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/dash/pizzas.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="js/graphs/piechart.js"></script>
+    <script src="js/graphs/linegraph.js"></script>
+
+    <title>Dashboard</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">CLONEFLIX</h2>
+            <div class="horas">
+                <h3 class="logo">123:40</h3>
+                <p>Horas investidas assistindo CloneFlix</p>
+            </div>
+            <div class="titulos-assistidos">
+                <h3 class="logo">60</h3>
+                <p>Nº Titulos Assistidos</p>
+            </div>
+            <nav>
+                <a href="index.html">Voltar</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <div class="pizza celulas">
+            <h4 class="titulo-grafico">Distribuição, em horas, por Gênero</h4>
+            <div id="piechart"></div>
+        </div>
+        <div class="line celulas">
+            <h4 class="titulo-grafico">Permanência, em horas, na plataforma por dia</h4>
+            <div id="curve_chart"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="tabela celulas">
+            <table class="filmes">
+                <tr>
+                    <th>Gênero</th>
+                    <th>Data</th>
+                    <th>Duração (min)</th>
+                </tr>
+                <tr>
+                    <td>Anime</td>
+                    <td>Segunda, 04 de Outubro, 2021</td>
+                    <td>960</td>
+                </tr>
+                <tr>
+                    <td>Ficção Científica</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Love, Death & Robot</td>
+                    <td>Sábado, 09 de Outubro, 2021</td>
+                    <td>140</td>
+                </tr>
+                <tr>
+                    <td>Séries</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Shadow & Bone</td>
+                    <td>Domingo, 10 de Outubro, 2021</td>
+                    <td>960</td>
+                </tr>
+            </table>
+        </div>
+        <div class="barra celulas">Barra</div>
+    </div>
+
+    
+</body>
+</html>
