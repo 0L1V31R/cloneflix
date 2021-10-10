@@ -1,0 +1,54 @@
+:root{
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: white;
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+#piechart {
+    display: block;
+    margin: 0 auto;
+}
+
+.tabela {
+    align-self: center;
+    padding-left: 5px;
+}
+

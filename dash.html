@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="style/dash/pizzas.css">
+    <!--Inserindo css-->
+    <link rel="stylesheet" href="style/dash/graphics.css">
+    <!--Inserindo jscript-->
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="js/graphs/piechart.js"></script>
     <script src="js/graphs/linegraph.js"></script>
+    <script src="js/graphs/bargraph.js"></script>
 
     <title>Dashboard</title>
 </head>
@@ -33,11 +35,9 @@
 
     <div class="container">
         <div class="pizza celulas">
-            <h4 class="titulo-grafico">Distribuição, em horas, por Gênero</h4>
             <div id="piechart"></div>
         </div>
         <div class="line celulas">
-            <h4 class="titulo-grafico">Permanência, em horas, na plataforma por dia</h4>
             <div id="curve_chart"></div>
         </div>
     </div>
@@ -76,7 +76,9 @@
                 </tr>
             </table>
         </div>
-        <div class="barra celulas">Barra</div>
+        <div class="barra celulas">
+            <div id="barchart"></div>
+        </div>
     </div>
 
     
